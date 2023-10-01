@@ -1,9 +1,10 @@
-import './App.css'
+import './App.css';
+import Store from './Pages/Store/Store';
 
 function App() {
   return (
     <>
-      Hello World
+      <Store />
     </>
   )
 }
