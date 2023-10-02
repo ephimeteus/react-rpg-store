@@ -1,9 +1,10 @@
+import Header from "../../Components/Header/Header";
 import Purchase from "./Purchase/Purchase";
 
 const Store = () => {
    return (
         <>
-            <h1>Store</h1>
+            <Header />
             <Purchase />
         </>
     );

@@ -1,5 +1,15 @@
+import Filter from './Filter';
+import CardGrid from '../../../Components/CardGrid/CardGrid';
+import './Purchase.css';
+
 const Purchase = () => {
-    return <h2>Purchase</h2>
+    return (
+        <div className='purchase'>
+            <Filter />
+            <CardGrid />
+            <button>Buy</button>
+        </div>
+    );
 };
 
 export default Purchase;
