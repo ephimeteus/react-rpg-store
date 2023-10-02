@@ -1,0 +1,10 @@
+.purchase {
+    display: block;
+}
+
+button {
+    margin: 10px;
+    background-color: olivedrab;
+    color: white;
+    border: none;
+}

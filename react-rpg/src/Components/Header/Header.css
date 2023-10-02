@@ -1,0 +1,17 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+.round {
+    background-color: beige;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.square {
+    height: 100px;
+    width: 300px;
+    font-size: x-small;
+}

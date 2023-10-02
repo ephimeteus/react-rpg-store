@@ -1,0 +1,10 @@
+.card-grid {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(240, 201, 150);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    grid-gap: 20px;
+    overflow: scroll;
+}
