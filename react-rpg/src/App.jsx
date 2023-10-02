@@ -1,12 +1,13 @@
 import './App.css';
 import Store from './Pages/Store/Store';
+import Container from './Components/Container/Container';
 
 function App() {
   return (
-    <>
-      <Store />
-    </>
-  )
-}
+      <Container> 
+        <Store />
+      </Container>
+  );
+};
 
-export default App
+export default App;
