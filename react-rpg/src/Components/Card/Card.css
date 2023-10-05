@@ -7,11 +7,6 @@
 }
 
 .card img {
-    height: 80%;
-    width: 90%;
-    
-}
-
-p {
-    font-size: 50px;
+    height: 100%;
+    width: 100%;   
 }
