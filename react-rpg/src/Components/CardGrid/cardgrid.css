@@ -1,0 +1,9 @@
+.card-grid {
+  height:fit-content ;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  padding: 40px;
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,1), 0 20px 30px 0 rgba(0,0,0,1);
+  
+  
+}

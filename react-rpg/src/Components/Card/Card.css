@@ -1,0 +1,13 @@
+.card{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(219, 191, 157);
+    background-image: url(../../Assets/item.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+
+
+}
+
