@@ -1,5 +1,4 @@
 .container {
-    
         background-color:#000000;
         border:solid 3vmin ;
         border-bottom-color:rgb(177, 156, 135);
@@ -7,33 +6,12 @@
         border-radius:2px;
         border-right-color:rgb(177, 156, 135);
         border-top-color:#b19c87;
-        box-shadow:0 0 5px 0 rgba(0,0,0,1) inset, 0 5px 10px 5px rgba(0,0,0,1);
-        box-sizing:border-box;
-        display:inline-block;
-        margin:10vh 10vw;
-        height:fit-content;
-        width: fit-content;
-        position:relative;
-        text-align:center;
-        &:before {
-          border-radius:2px;
-          bottom:-2vmin;
-          box-shadow:0 2px 5px 0 rgba(0,0,0,.25) inset;
-          content:"";
-          left:-2vmin;
-          position:absolute;
-          right:-2vmin;
-          top:-2vmin;
-        }
-        &:after {
-            border-radius:2px;
-            bottom:-3vmin;
-            box-shadow: 0 2px 35px 0 rgba(0,0,0,1);
-            content:"";
-            left:-3vmin;
-            position:absolute;
-            right:-3vmin;
-            top:-3vmin;
-          }
-    
+        box-shadow: 0 50px 100px 50px rgb(0, 0, 1);
+        margin:5vh 5vw;
+        height:90vh;
+        width: 90vh;
+        float: right;
+        overflow: hidden;
+        
+        
 }
