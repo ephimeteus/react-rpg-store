@@ -6,8 +6,8 @@ const Card = ({ name, description }) => {
     return (
         <div className="card">
             <img src={ itemImage } />
-            <h3>{ name }</h3>
-            <div className="description">
+        <div className="description">
+                <h3>{ name }</h3>
                 <p>{ description }</p>
             </div>
         </div>
