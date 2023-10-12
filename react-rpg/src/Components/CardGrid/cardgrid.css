@@ -4,7 +4,8 @@
     overflow-y: scroll;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-template-rows: 1fr 1fr;
-    padding: 40px; 
+    padding: 40px;
+	grid-gap: 20px; 
     
     
 }
