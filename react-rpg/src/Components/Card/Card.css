@@ -6,7 +6,7 @@
     
 }
 .card:hover {
-    box-shadow: 20px 10px 30px #ff7627;
+    box-shadow: 0 0 30px #ff7627;
     transform: translateY(-10px);
   }
   
@@ -16,6 +16,30 @@
     width: 100%;   
 }
 
-.card span {
+.card h3 {
     font-size: 40px;
 }
+
+.description {
+    display: none;
+    background: rgba(0, 0, 0, 0.527);
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    width: fit-content;
+    height: fit-content;
+    visibility: hidden;
+    transition: 0.3s;
+    padding: 20px;
+}
+  
+  /* Show the description on card hover */
+  .card:hover .description {
+    display: block;
+    background-color: #000000c7;
+    visibility: visible;
+    transition: 0.3s;
+    font-size: 60px;
+    box-shadow: 0 0 30px #ff7627;  
+    
+  }

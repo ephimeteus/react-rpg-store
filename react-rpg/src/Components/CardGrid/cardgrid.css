@@ -1,7 +1,8 @@
 .card-grid {
-    height: 60%;
+    height: 85%;
     display: grid;
     overflow-y: scroll;
+	
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-template-rows: 1fr 1fr;
     padding: 40px;
@@ -14,17 +15,17 @@
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
-	background-color: #f4d09c;
+	background-color: #ff8036;
 }
 ::-webkit-scrollbar
 {
 	width: 20px;
-	background-color: #f4d09c;
+	background-color: #ee9212;
 }
 
 ::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #e19d4c;
+	background-color: #fc8c03;
 }
