@@ -1,6 +1,6 @@
 import './Header.css';
 
-const Header = () => {
+const Header = ({ name,description }) => {
     return (
         <div className="header">
             <div className='portrait'></div>

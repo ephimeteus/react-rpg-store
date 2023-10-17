@@ -1,32 +1,34 @@
 .header {
     background-color: rgb(53, 38, 25);
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 15vh;
-    padding: 1vh;
-    justify-content: space-around;
+    height: fit-content;
+    border: solid;
+    border-top: inset 1rem #603f15;
+    border-bottom: inset 1rem #aa7632;
+    border-left: inset 1rem #aa7632;
+    border-right: inset 1rem #553915;
+    
+    
   }
   
 
 .portrait {
-    margin: 10px;
-    height: 16vh;
-    width: 16vh;
+    margin: 2rem;
+    height: 15rem;
+    width: 17rem;
     background-image: url('../../Assets/portrait.jfif');
     background-size: cover; 
     border-radius: 50%;
     border-color: rgb(177, 156, 135);
-    border-style:solid;
-    border-width: 20px;
     box-shadow:0 0 5px 0 rgba(0,0,0,1) inset, 0 5px 10px 5px rgba(0,0,0,1);
     overflow: hidden;
 }
 
 .quote {
+    margin: 2rem;
     width: 60%;
     color:antiquewhite;
-    font-size: 2vh;
+    font-size: 1.5rem;
     font-style: oblique;
     text-align: left;
 }
