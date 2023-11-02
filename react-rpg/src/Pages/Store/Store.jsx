@@ -1,11 +1,20 @@
 import Header from "../../Components/Header/Header";
 import CardGrid from "../../Components/CardGrid/CardGrid";
+import CharacterSheet from "../Character/CharacterSheet/CharacterSheet";
+
+
 
 const Store = () => {
    return (
       <>
-         < Header />
-         < CardGrid />
+         <CharacterSheet />
+         <div>
+            <Header />
+            <CardGrid />
+         </div>
+         <div>
+            
+         </div>
       </>
    );
 };
