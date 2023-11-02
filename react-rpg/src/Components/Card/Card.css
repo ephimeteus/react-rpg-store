@@ -24,7 +24,8 @@
     display: none;
     background: rgba(0, 0, 0, 0.527);
     color: #fff;
-    position:relative;
+    position: absolute;
+    top: 0%;
     width: 100%;
     height: fit-content;
     visibility: hidden;

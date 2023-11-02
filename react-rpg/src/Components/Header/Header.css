@@ -14,8 +14,8 @@
 
 .portrait {
     margin: 2rem;
-    height: 15rem;
-    width: 17rem;
+    height: 10rem;
+    width: 10rem;
     background-image: url('../../Assets/portrait.jfif');
     background-size: cover; 
     border-radius: 50%;
