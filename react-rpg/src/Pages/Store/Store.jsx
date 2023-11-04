@@ -15,7 +15,7 @@ const Store = () => {
       <>
          <CharacterSheet onSelectCharacter={onSelectCharacter} />
          <div>
-            <Header />
+            <Header name= {selectedCharacter} quote='I paid the blood price for these. And my blood is not cheap'/>
             <CardGrid selectedCharacter={selectedCharacter} items={items} />
          </div>
       </>
