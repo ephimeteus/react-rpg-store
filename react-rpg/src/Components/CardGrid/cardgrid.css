@@ -4,7 +4,7 @@
     overflow-y: scroll;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding: 5rem;
-	grid-gap: 2rem;
+	row-gap: 4rem;
 }
 
 ::-webkit-scrollbar-track
