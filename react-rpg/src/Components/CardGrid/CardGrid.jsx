@@ -1,15 +1,24 @@
 import './cardgrid.css';
 import Card from '../Card/Card';
-import items from '../../Pages/Store/_mocks/items.json';
 
-const CardGrid = () => {
+
+const CardGrid = ({ selectedCharacter, items }) => {
+
+  if (selectedCharacter === null) {
+    return <div className="card-grid">Please select a character.</div>;
+  };
+
+  const filteredItems = items.filter((item) => item.vendor === selectedCharacter);
+
   return (
     <div className="card-grid">
-      {items.map(
-        (item, index) => (
-          <Card key={index} name={item.name} description={item.description} />
-        )
-      )};
+      {filteredItems.map((item, index) => (
+        <Card 
+          key={index}
+          name={item.name} 
+          description={item.description}
+        />
+      ))}
     </div>
   );
 };

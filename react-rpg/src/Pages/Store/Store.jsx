@@ -7,14 +7,12 @@ import CharacterSheet from "../Character/CharacterSheet/CharacterSheet";
 const Store = () => {
    return (
       <>
-         <CharacterSheet />
+         
          <div>
             <Header />
-            <CardGrid />
-         </div>
-         <div>
             
          </div>
+         
       </>
    );
 };
