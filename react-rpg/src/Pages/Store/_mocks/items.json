@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Fading Star Amulet",
+    "description": "An amulet adorned with a dimly glowing star-shaped gem that seems to lose its brilliance. Legends speak of a fallen celestial realm.",
+    "vendor": "Al Jabik"
+  },
+  {
+    "name": "Shattered Crown Brooch",
+    "description": "A delicate brooch bearing a cracked, regal crown. Whispers suggest it once belonged to a fallen monarch who lost their throne to treachery.",
+    "vendor": "Miriam"
+  },
+  {
+    "name": "Bottled Eclipsed Sunlight",
+    "description": "A small vial containing a dark, sunless substance. It's rumored to hold a piece of an eclipsed sun from an age long past.",
+    "vendor": "Odok"
+  },
+  {
+    "name": "Weeping Willow Locket",
+    "description": "A locket with a miniature willow tree inside, its branches resembling teardrops. Its origin is unknown, but it's said to bring sorrow to its bearer.",
+    "vendor": "Al Jabik"
+  },
+  {
+    "name": "Rune-etched Dice",
+    "description": "A set of dice, each side etched with cryptic runes. The outcome of a roll is said to reveal forgotten prophecies.",
+    "vendor": "Al Jabik"
+  },
+  {
+    "name": "Shadowbound Hourglass",
+    "description": "An hourglass filled with a shadowy substance that defies gravity. Some believe it holds time from an era erased from history.",
+    "vendor": "Odok"
+  },
+  {
+    "name": "Cursed Reliquary Key",
+    "description": "A key adorned with enigmatic symbols, said to unlock the cursed reliquary of a long-lost cult. Its secrets are perilous to unveil.",
+    "vendor": "Al Jabik"
+  },
+  {
+    "name": "Eldritch Whispering Stone",
+    "description": "A small, smooth stone that whispers cryptic messages when held close to the ear. The source of these voices is an enigma.",
+    "vendor": "Al Jabik"
+  },
+  {
+    "name": "Fellblade Pommel Ornament",
+    "description": "An ornate pommel ornament from a fellblade, a weapon forged in the fires of an ancient cataclysm. Its purpose is a mystery.",
+    "vendor": "Odok"
+  },
+  {
+    "name": "Harbinger's Tarot Deck",
+    "description": "A tarot deck bearing hauntingly accurate predictions of doom and despair. Its creator's identity remains shrouded in darkness.",
+    "vendor": "Miriam"
+  },
+  {
+    "name": "Doombringer's Helm",
+    "description": "A grim and ominous helmet adorned with eerie engravings. It's said to grant its wearer visions of impending catastrophe.",
+    "vendor": "Odok"
+  },
+  {
+    "name": "Serpent's Embrace Ring",
+    "description": "A twisted, coiled snake ring with emerald eyes. Wearing it is said to bring a sense of impending doom and foreboding.",
+    "vendor": "Miriam"
+  },
+  {
+    "name": "Tome of Forbidden Sorcery",
+    "description": "A thick, ancient tome filled with forbidden spells and incantations. Those who delve into its secrets risk unspeakable consequences.",
+    "vendor": "Odok"
+  },
+  {
+    "name": "Blood Moon Cloak",
+    "description": "A dark, crimson cloak that only appears under the blood moon. It is believed to possess the power to unveil hidden horrors.",
+    "vendor": "Al Jabik"
+  },
+  {
+    "name": "Labyrinthine Key",
+    "description": "A mysterious key with intricate designs, said to unlock the gates to an otherworldly labyrinth filled with treacherous traps.",
+    "vendor": "Odok"
+  },
+  {
+    "name": "Soulbound Chains",
+    "description": "Chains with ethereal, glowing links that appear to connect to a distant and foreboding realm. Binding them can have dire consequences.",
+    "vendor": "Al Jabik"
+  },
+  {
+    "name": "Cursed Mirror Shard",
+    "description": "A fragment of a shattered mirror that is said to reflect a cursed and desolate realm. Gazing into it is believed to bring misfortune.",
+    "vendor": "Miriam"
+  },
+  {
+    "name": "Elixir of Desperation",
+    "description": "A vial containing a dark elixir that instills a sense of hopelessness and despair. Its use is rumored to be linked to tragic tales.",
+    "vendor": "Odok"
+  },
+  {
+    "name": "Wail of the Banshee",
+    "description": "A hauntingly beautiful pendant with a piece of silver hair. Legend says it holds the wail of a banshee, foretelling doom and tragedy.",
+    "vendor": "Miriam"
+  },
+  {
+    "name": "Cryptkeeper's Lantern",
+    "description": "A lantern that reveals hidden paths in the darkest of crypts. Its eerie glow is said to guide those who dare to explore the unknown.",
+    "vendor": "Al Jabik"
+  }
+]

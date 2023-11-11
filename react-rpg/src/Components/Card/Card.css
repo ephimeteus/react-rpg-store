@@ -1,0 +1,46 @@
+.card{
+    height: 20rem;
+    width: 10rem;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    
+    
+}
+.card:hover {
+    box-shadow: 0 0 30px #ff7627;
+    transform: translateY(-10px);
+  }
+.card img {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+.card h3 {
+    font-size: 25px;
+}
+
+.description {
+    display: none;
+    background: rgba(0, 0, 0, 0.527);
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: fit-content;
+    visibility: hidden;
+    transition: 0.3s;
+    padding: 20px;
+    font-size: 1.3rem;
+    
+}
+  
+  /* Show the description on card hover */
+  .card:hover .description {
+    display: block;
+    background-color: #000000c7;
+    visibility: visible;
+    transition: 0.3s;
+    box-shadow: 0 0 60px #ff7627;  
+  }

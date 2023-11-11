@@ -1,12 +1,15 @@
 import './App.css';
 import Store from './Pages/Store/Store';
+import Container from './Components/Container/Container';
 
-function App() {
+
+
+const App = () => {
   return (
-    <>
+    <Container>
       <Store />
-    </>
-  )
-}
+    </Container>
+  );
+};
 
-export default App
+export default App;
