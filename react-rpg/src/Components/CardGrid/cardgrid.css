@@ -1,10 +1,10 @@
 .card-grid {
     height: 60%;
     display: grid;
-    overflow-y: scroll;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    padding: 5rem;
-	row-gap: 4rem;
+    overflow-y: auto;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    padding: 2rem;
+	
 }
 
 ::-webkit-scrollbar-track

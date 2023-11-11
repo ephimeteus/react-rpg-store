@@ -5,8 +5,8 @@ import itemImage from '../../Assets/item.png'
 const Card = ({ name, description }) => {
     return (
         <div className="card">
-            <img src={ itemImage } />
             <h3>{ name }</h3>
+            <img src={ itemImage } />
             <div className="description">
                 <h3>{ name }</h3>
                 <p>{ description }</p>

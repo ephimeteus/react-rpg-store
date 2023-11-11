@@ -4,14 +4,16 @@
     height: fit-content;
     width: 50rem;
     border: solid;
-    border-top: inset 1rem #603f15;
-    border-bottom: inset 1rem #aa7632;
-    border-left: inset 1rem #aa7632;
-    border-right: inset 1rem #553915;
+    border: 1rem solid #4d3f25;
+     /* Darker shadow on the bottom and right */
+    border-bottom: 1rem solid #2c2010;
+    border-right: 1rem solid #4d3c27;
+
+    /* Highlight on the top and left */
+    border-top: 1rem solid #68533a;
+    border-left: 1rem solid #513b21;
     color:antiquewhite;
-    
-    
-  }
+}
   
 
 .portrait {
