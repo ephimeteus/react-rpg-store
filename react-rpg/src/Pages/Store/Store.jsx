@@ -3,11 +3,17 @@ import Header from "../../Components/Header/Header";
 import CardGrid from '../../Components/CardGrid/CardGrid';
 import CharacterSheet from '../Character/CharacterSheet/CharacterSheet';
 import items from '../Store/_mocks/items.json'
+import Inventory from '../Inventory/Inventory';
 
 
 const Store = () => {
    const [selectedCharacter, setSelectedCharacter] = useState(null);
    const onSelectCharacter = (name) => { setSelectedCharacter(name)};
+
+   const [inventory, setInventory] = useState([]);
+   const buyItem = (item) => {
+      setInventory( prevItems => [...prevItems, item] );
+    };
 
    let quote = 
    selectedCharacter === 'Al Jabik'
@@ -21,8 +27,9 @@ const Store = () => {
          <CharacterSheet onSelectCharacter={onSelectCharacter} />
          <div>
             <Header name= {selectedCharacter} quote={ quote } />
-            <CardGrid selectedCharacter={selectedCharacter} items={items} />
+            <CardGrid selectedCharacter={selectedCharacter} items={items} buyItem={buyItem} />
          </div>
+         <Inventory inventory={inventory} />
       </>
    );
 };

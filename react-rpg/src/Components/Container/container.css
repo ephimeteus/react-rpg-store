@@ -9,7 +9,7 @@
         box-shadow: 0 50px 100px 50px rgb(37, 21, 5);
         margin:2rem;
         height:90vh;
-        width: 60rem;
+        width: fit-content;
         float: right;
         overflow: hidden;
 }
