@@ -9,7 +9,7 @@ const CardGrid = ({ selectedCharacter, items, buyItem }) => {
   return (
     <div className="card-grid">
       { !selectedCharacter
-      ? <div>Call a merchant.</div>
+      ? <div>...</div>
       : filteredItems.map((item, index) => (
         <Card 
           key={index}

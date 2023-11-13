@@ -1,6 +1,6 @@
 .container {
         display: flex;
-        background-color:#000000;
+        background-color:rgb(53, 38, 25);
         border:solid 2vmin ;
         border-bottom-color:rgb(8, 7, 24);
         border-left-color:rgb(61, 45, 34);
@@ -8,6 +8,7 @@
         border-top-color:#4d3f25;
         box-shadow: 0 50px 100px 50px rgb(37, 21, 5);
         margin:2rem;
+        padding: 2rem;
         height:90vh;
         width: fit-content;
         float: right;

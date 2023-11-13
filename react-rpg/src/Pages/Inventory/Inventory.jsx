@@ -13,6 +13,7 @@ const Inventory = ({ inventory }) => {
                     )
                 )}
             </ul>
+            <button>Buy</button>
         </div>
     );
 };

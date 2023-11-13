@@ -1,8 +1,8 @@
 
 .inventory {
+    display: block;
     font-size: 2rem;
     width: 30rem;
-    overflow-y: auto;
     border: solid;
     border: solid;
     border: 1rem solid #4d3f25;
@@ -22,6 +22,12 @@
     height: 14rem;
     justify-content: center;
     align-items: center;
+}
+
+.inventory button {
     
-    
+    height: 3rem;
+    width: 6rem;
+    background-color: rgb(224, 127, 29);
+    border-radius: 10px;
 }

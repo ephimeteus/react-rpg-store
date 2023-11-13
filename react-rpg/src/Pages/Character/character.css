@@ -9,3 +9,9 @@
     font-weight: bolder;
     font-size: 25px;
 }
+
+.character:hover img {
+    transition: 0.3s;
+    box-shadow: 0 0 60px #ff7627;
+
+  }
