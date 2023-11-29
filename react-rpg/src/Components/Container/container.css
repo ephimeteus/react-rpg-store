@@ -7,9 +7,8 @@
         border-right-color:rgb(61, 45, 34);
         border-top-color:#4d3f25;
         box-shadow: 0 50px 100px 50px rgb(37, 21, 5);
-        margin:2rem;
         padding: 2rem;
-        height:90vh;
+        height:80vh;
         width: fit-content;
         float: right;
         overflow: hidden;
